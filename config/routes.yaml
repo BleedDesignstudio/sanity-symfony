@@ -1,0 +1,5 @@
+index:
+    path: /
+    controller: App\Controller\MovieController::index
+    defaults:
+      template: 'movies/index.html.twig'
